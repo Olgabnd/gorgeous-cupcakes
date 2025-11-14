@@ -1,10 +1,6 @@
 <?php
 	//database connection details
-	// $host = 'localhost';
-	// $user = 'root';
-	// $password = '';
-	// $database = 'gorgeous_cupcakes';
-
+	
 	$host = 'localhost';
 	$user = 'root';
 	$password = '';
@@ -25,4 +21,5 @@
 		include('../view/database_error.php');
 		exit();
 	}
+
 ?>
